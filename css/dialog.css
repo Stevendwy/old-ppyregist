@@ -1,0 +1,131 @@
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.fixed {
+  position: fixed;
+}
+.block {
+  display: block;
+}
+.inlineBlock {
+  display: inline-block;
+}
+.alpha0 {
+  background-color: rgba(0, 0, 0, 0);
+}
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sizeFull {
+  width: 100%;
+  height: 100%;
+}
+.sizeFullWidth {
+  width: 100%;
+}
+.sizeFullHeight {
+  height: 100%;
+}
+.Container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.BoxContainer {
+  height: 110px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Message {
+  font-size: 14px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.ToastContainer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ToastContainer .ToastMessageContainer {
+  height: 110px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  width: 160px;
+}
+.ToastContainer .ToastMessageContainer .ToastMessage {
+  font-size: 14px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.ComfirmContainer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ComfirmContainer .ComfirmMessageContainer {
+  height: 110px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom: #D8D8D8 1px solid;
+  width: 200px;
+}
+.ComfirmContainer .ComfirmMessageContainer .ComfirmMessage {
+  font-size: 14px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.ComfirmContainer .ComfirmButtonsContainer {
+  display: flex;
+}
+.ComfirmContainer .ComfirmButtonsContainer .Button {
+  line-height: 32px;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.ComfirmContainer .ComfirmButtonsContainer .CancelMessage {
+  line-height: 32px;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 99px;
+  color: white;
+  border-bottom-left-radius: 4px;
+  border-right: #D8D8D8 1px solid;
+}
+.ComfirmContainer .ComfirmButtonsContainer .TodoMessage {
+  line-height: 32px;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100px;
+  color: #1aa0f3;
+  border-bottom-right-radius: 4px;
+}
